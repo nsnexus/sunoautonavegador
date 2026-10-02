@@ -1,0 +1,25 @@
+﻿{
+  "name": "sunoautonavegador",
+  "version": "1.0.0",
+  "description": "Automação local para criação de músicas no Suno via navegador logado e integração Supabase",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js --watch",
+    "test-manual": "node src/index.js",
+    "iniciar-chrome": "cmd /c iniciar-chrome.bat"
+  },
+  "keywords": [
+    "suno",
+    "automation",
+    "puppeteer",
+    "music-generator",
+    "nsmusic"
+  ],
+  "author": "NS Music",
+  "license": "ISC",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.45.0",
+    "dotenv": "^16.4.5",
+    "puppeteer-core": "^23.4.0"
+  }
+}
